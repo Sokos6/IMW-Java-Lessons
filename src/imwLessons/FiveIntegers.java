@@ -21,9 +21,11 @@ public class FiveIntegers {
 		System.out.println("Enter a fifth number : ");
 		num5 = scanner.nextInt();
 		
+		scanner.close();
+		
 		System.out.println(num1 + " " + num2 + " " + num3 + " " + num4 + " " + num5);
 		
-		scanner.close();
+		
 	
 	}
 }
